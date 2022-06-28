@@ -10,7 +10,7 @@ const {
 const {
     validarCampos,
     validarJWT,
-    esAdminRole,
+    // esAdminRole,
     tieneRole,
 } = require('../middlewares');
 

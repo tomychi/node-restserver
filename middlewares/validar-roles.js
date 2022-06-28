@@ -13,6 +13,7 @@ const esAdminRole = (req = request, res = response, next) => {
             msg: `${nombre} no es administrador - No tienes permisos`,
         });
     }
+    next();
 };
 
 // quiero el resto de argumentos
